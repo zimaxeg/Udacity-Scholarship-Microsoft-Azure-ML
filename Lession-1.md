@@ -86,3 +86,25 @@ The formula for this is:
 ![](images/2.jpg)<br />
 ![](images/3.jpg)<br />
 ![](images/4.jpg)<br />
+
+## Encoding Categorical Data
+As we've mentioned a few times now, machine learning algorithms need to have data in numerical form. Thus, when we have categorical data, we need to encode it in some way so that it is represented numerically.
+
+There are two common approaches for encoding categorical data: 
+**ordinal encoding** and **one hot encoding.**
+**Ordinal Encoding**
+In ordinal encoding, we simply convert the categorical data into integer codes ranging from 0 to (number of categories – 1). Let's look again at our example table of clothing products:
+
+| SKU	   | Make        | Color | Quantity | Price|
+| -------| ----------- |-------| -------- |------|
+| 908721 | Guess       | Blue  | 789      |45.33 |
+| 456552 | Text        | Red   | 22.91    |22.91 |
+| 789921 | A&F	       | Green | 387	    |25.92 |
+| 872266 | Guess       | Blue  | 154	    |17.56 |
+
+If we apply ordinal encoding to the Make property, we get the following:
+|Make |	Encoding|
+|-----|--------|
+|A&F	|0|
+|Guess	|1|
+|Tillys	|2|
