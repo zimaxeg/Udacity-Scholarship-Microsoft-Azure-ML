@@ -166,3 +166,6 @@ Let's now talk about how we can use this data to encode an image. We need to kno
 - [ ] Vertical position of each pixel
 - [ ] Color of each pixel
 Thus, we can fully encode an image numerically by using a vector with three dimensions. The size of the vector required for any given image would be the height * width * depth of that image.
+
+![](images/imgdata.jpg)
+![](images/imddata1.jpg)
