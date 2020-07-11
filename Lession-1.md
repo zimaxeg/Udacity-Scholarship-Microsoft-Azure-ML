@@ -136,11 +136,11 @@ If an item belongs to a category, the column representing that category gets the
 
 If we do the same thing for the Make property, our table can be transformed as follows:
 
-|SKU	|A&F	|Guess	|Tillys	|Red	|Green |Blue	|Quantity|Price|
-|----|--------|---------|------|------|-----------|------|------|-----|
-|908721|0	|0|	1|	|0	|0	|1	|789	|45.33|
-|456552	|0	|0|	1|	|1	|0	|0	|244	|22.91|
-|789921	|1	|0|	0|	|0	|1	|0	|387	|25.92|
-|872266	|0	|1|	0|	|0	|0	|1	|154	|17.56|
+|SKU	|A&F	|Guess	|Tillys	|Red	|Green	|Blue	|Quantity|Price|
+|-----|-------|---------|------|-----|---------|------|-------|----|
+|908721	|0	|1	|0	|0	|0	|1	|789	|45.33|
+|456552	|0	|0	|1	|1	|0	|0	|244	|22.91|
+|789921	|1	|0	|0	|0	|1	|0	|387	|25.92|
+|872266	|0	|1	|0	|0	|0	|1	|154	|17.56|
 
 One drawback of one-hot encoding is that it can potentially generate a very large number of columns.
