@@ -57,7 +57,11 @@ Here's an example of tabular data showing some different clothing products and t
 ## Vectors
 It is important to know that in machine learning we ultimately always work with numbers or specifically vectors.
 A vector is simply an array of numbers, such as (1, 2, 3)—or a nested array that contains other arrays of numbers, such as (1, 2, (1, 2, 3)).
+
 Vectors are used heavily in machine learning. If you have taken a basic course in linear algebra, then you are probably in good shape to begin learning about how they are used in machine learning. 
+
 All non-numerical data types (such as images, text, and categories) must eventually be represented as numbers
 In machine learning, the numerical representation will be in the form of an array of numbers—that is, a vector
 As we go through this course, we'll look at some different ways to take non-numerical data and vectorize it (that is, transform it into vector form).
+
+## Scaling Data
