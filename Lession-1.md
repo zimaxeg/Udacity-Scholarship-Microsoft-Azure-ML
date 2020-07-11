@@ -108,3 +108,21 @@ If we apply ordinal encoding to the Make property, we get the following:
 |A&F	|0|
 |Guess	|1|
 |Tillys	|2|
+
+And if we apply it to the Color property, we get:
+
+	
+|Color |	Encoding|
+|-----|--------|
+|Red	|0|
+|Green	|1|
+|Blue	|2|
+
+Using the above encoding, the transformed table is shown below:
+
+|SKU	|Make|	Color|	Quantity|	Price|
+|-----|------|-------|-------|-----|
+|908721	|1|	2	|789	|45.33|
+|456552	|2	|0	|244	|22.91|
+|789921	|0	|1|	|387	|25.92|
+|872266|	1	|2	|154	|17.56|
