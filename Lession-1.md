@@ -144,3 +144,6 @@ If we do the same thing for the Make property, our table can be transformed as f
 |872266	|0	|1	|0	|0	|0	|1	|154	|17.56|
 
 One drawback of one-hot encoding is that it can potentially generate a very large number of columns.
+![](images/5.jpg)
+![](images/6.jpg)
+![](images/7.jpg)
