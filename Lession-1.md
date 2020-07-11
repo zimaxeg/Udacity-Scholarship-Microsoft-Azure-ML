@@ -126,3 +126,21 @@ Using the above encoding, the transformed table is shown below:
 |456552	|2	|0	|244	|22.91|
 |789921	|0	|1	|387	|25.92|
 |872266|1	|2	|154	|17.56|
+
+One of the potential drawbacks to this approach is that it implicitly assumes an order across the categories. In the above example, Blue (which is encoded with a value of 2) seems to be more than Red (which is encoded with a value of 1), even though this is in fact not a meaningful way of comparing those values. This is not necessarily a problem, but it is a reason to be cautious in terms of how the encoded data is used.
+
+**One-Hot Encoding**
+One-hot encoding is a very different approach. In one-hot encoding, we transform each categorical value into a column. If there are n categorical values, n new columns are added. For example, the Color property has three categorical values: Red, Green, and Blue, so three new columns Red, Green, and Blue are added.
+
+If an item belongs to a category, the column representing that category gets the value 1, and all other columns get the value 0. For example, item 908721 (first row in the table) has the color blue, so we put 1 into that Blue column for 908721 and 0 into the Red and Green columns. Item 456552 (second row in the table) has color red, so we put 1 into that Red column for 456552 and 0 into the Green and Blue columns.
+
+If we do the same thing for the Make property, our table can be transformed as follows:
+
+|SKU	|A&F	|Guess	|Tillys	|Red	|Green |Blue	|Quantity|Price|
+|----|--------|---------|------|------|-----------|------|------|-----|
+|908721|0	|0|	1|	|0	|0	|1	|789	|45.33|
+|456552	|0	|0|	1|	|1	|0	|0	|244	|22.91|
+|789921	|1	|0|	0|	|0	|1	|0	|387	|25.92|
+|872266	|0	|1|	0|	|0	|0	|1	|154	|17.56|
+
+One drawback of one-hot encoding is that it can potentially generate a very large number of columns.
