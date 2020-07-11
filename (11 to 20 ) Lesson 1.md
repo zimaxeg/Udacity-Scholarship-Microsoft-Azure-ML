@@ -61,3 +61,10 @@ In contrast, someone with a background in statistics might be inclined to say so
 
 We are trying to find a mathematical function that, given the values of the independent variables can predict the values of the dependent variables.
 Computer science vs. Statistical perspective
+
+## The Computer Science Perspective
+When modeling a problem  and making predections we mak reffer to input features and output features.
+input is more then one input var and group of input is input vector
+Output =  Program(Input features)
+![](images/Annotation 2020-07-12 001055.jpg)
+![](images/Annotation 2020-07-12 001044.jpg)
