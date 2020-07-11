@@ -37,8 +37,9 @@ Any vector with the same length can be visualized in the same space. How close o
 
 |            |quick	 | fox	|lazy	|dog	|rabid|	hare|
 |-------------|------|------|------|----|-----|-----|
-|[quick, fox]	0.32|	0.23	|0.0	|0.0|	0.0	|0.0|
-|[lazy, dog]	0.0	|0.0	|0.12|	0.23	|0.0|	0.0|
-|[rabid, hare]	|0.0|	0.0	|0.0	0.0	|0.56	|0.12|
-|[lazy, fox]	|0.0	|0.23	|0.12	0.0|	0.0	|0.0|
+|[quick, fox]	|0.32|	0.23	|0.0	|0.0|	0.0	|0.0|
+|[lazy, dog]	|0.0	|0.0	|0.12|	0.23	|0.0|	0.0|
+|[rabid, hare]	|0.0|	0.0	|0.0|	0.0	|0.56	|0.12|
+|[lazy, fox]	|0.0	|0.23	|0.12|	0.0|	0.0	|0.0|
+
 Apparently, [lazy, fox] is more similar to [lazy, dog] than [rabid, hare], so the vector distance of [lazy, fox] and [lazy, dog] is smaller than that to [lazy, fox] and [rabid, hare].
