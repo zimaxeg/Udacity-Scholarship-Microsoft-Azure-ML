@@ -65,3 +65,20 @@ In machine learning, the numerical representation will be in the form of an arra
 As we go through this course, we'll look at some different ways to take non-numerical data and vectorize it (that is, transform it into vector form).
 
 ## Scaling Data
+Scaling data means transforming it so that the values fit within some range or scale, such as 0–100 or 0–1. There are a number of reasons why it is a good idea to scale your data before feeding it into a machine learning algorithm.
+
+Let's consider an example. Imagine you have an image represented as a set of RGB values ranging from 0 to 255. We can scale the range of the values from 0–255 down to a range of 0–1. This scaling process will not affect the algorithm output since every value is scaled in the same way. But it can speed up the training process, because now the algorithm only needs to handle numbers less than or equal to 1.
+
+Two common approaches to scaling data include standardization and normalization.
+**Standardization**
+Standardization rescales data so that it has a mean of 0 and a standard deviation of 1.
+
+The formula for this is:
+
+(𝑥 − 𝜇)/𝜎
+**Normalization**
+Normalization rescales the data into the range [0, 1].
+
+The formula for this is:
+
+(𝑥 −𝑥𝑚𝑖𝑛)/(𝑥𝑚𝑎𝑥 −𝑥𝑚𝑖𝑛)
