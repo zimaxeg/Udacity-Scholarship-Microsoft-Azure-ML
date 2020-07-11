@@ -25,7 +25,7 @@ Automating the recognisation of disease Recommend next best actions for individu
 ## Brief History of Machine Learning
 in 50's the AI was an emerging feild wher the main fous was to copy the way the human think and act Artificial intelligence --> machine learning --> deep learning For more detail about What’s the Difference Between Artificial Intelligence, Machine Learning and Deep Learning? https://blogs.nvidia.com/blog/2016/07/29/whats-difference-artificial-intelligence-machine-learning-deep-learning-ai/
 
-The Data Science Process
+## The Data Science Process
 Big data has become the essiential part of any organisation.Raw data is often noisy and unreliable and may contain missing values and outliers.Using such data for modeling can lead to wrong or bad results. for data scientist the ability to combine large, disparate data sets into a format more appropirate for analysis.
 
 - [ ]  Step 1 is collecting data (Write code)
@@ -33,3 +33,4 @@ Big data has become the essiential part of any organisation.Raw data is often no
 - [ ]  Step 3 Train Model(write code Do dome math) - [ ] Step 4 Evaluate Model(write code Do dome math)
 - [ ]  Step 5 Deploy Model(Devops)
 - [ ]  Step 6 is retraing the model as the surrounding enviroment chenges the retraanning also becomes essiential part and yes it is an iterative step in production
+![](images/1.jpg)
