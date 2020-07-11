@@ -53,3 +53,11 @@ The next step is feature extraction and vectorization, which creates a numeric r
 
 ![](images/l2q5.jpg)
 
+## Two Perspectives on ML
+
+We are using input features to create a program that can generate the desired output.
+
+In contrast, someone with a background in statistics might be inclined to say something more like:
+
+We are trying to find a mathematical function that, given the values of the independent variables can predict the values of the dependent variables.
+Computer science vs. Statistical perspective
