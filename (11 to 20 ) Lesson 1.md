@@ -14,4 +14,4 @@ Remember, a vector is simply an array of numbers—so there are many different w
 ![](images/L2-1.jpg)
 
 <br>
-![](images/l2-q2.jpg)
+![](images/l2q2.jpg)
