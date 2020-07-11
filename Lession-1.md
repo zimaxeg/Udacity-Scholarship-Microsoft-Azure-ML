@@ -162,7 +162,7 @@ The number of channels required to represent the color is known as the color dep
 **Encoding an Image**
 Let's now talk about how we can use this data to encode an image. We need to know the following three things about an image to reproduce it:
 
-Horizontal position of each pixel
-Vertical position of each pixel
-Color of each pixel
+- [ ] Horizontal position of each pixel
+- [ ] Vertical position of each pixel
+- [ ] Color of each pixel
 Thus, we can fully encode an image numerically by using a vector with three dimensions. The size of the vector required for any given image would be the height * width * depth of that image.
