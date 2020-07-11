@@ -34,3 +34,22 @@ Big data has become the essiential part of any organisation.Raw data is often no
 - [ ]  Step 5 Deploy Model(Devops)
 - [ ]  Step 6 is retraing the model as the surrounding enviroment chenges the retraanning also becomes essiential part and yes it is an iterative step in production
 ![](images/1.jpg)
+
+## Common Types of Data
+
+- [ ] Numerical
+- [ ] Time Series 
+- [ ] Categorical
+- [ ] Text 
+- [ ] Image
+
+## Tabular Data
+In machine learning, the most common type of data you'll encounter is tabular data—that is, data that is arranged in a data table. This is essentially the same format as you work with when you look at data in a spreadsheet.
+
+Here's an example of tabular data showing some different clothing products and their properties:
+| SKU	   | Make        | Color | Quantity | Price|
+| -------| ----------- |-------| -------- |------|
+| 908721 | Guess       | Blue  | 789      |45.33 |
+| 456552 | Text        | Red   | 22.91    |22.91 |
+| 789921 | A&F	       | Green | 387	    |25.92 |
+| 872266 | Guess       | Blue  | 154	    |17.56 |
