@@ -13,5 +13,8 @@ The goal here is to identify the particular features of the text that will be re
 Remember, a vector is simply an array of numbers—so there are many different ways that we can vectorize a word or a sentence, depending on how we want to use it.
 ![](images/L2-1.jpg)
 
-<br>
+
 ![](images/l2q2.jpg)
+
+
+![](images/l2q3.jpg)
