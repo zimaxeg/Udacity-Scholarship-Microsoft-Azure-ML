@@ -43,3 +43,13 @@ Any vector with the same length can be visualized in the same space. How close o
 |[lazy, fox]	|0.0	|0.23	|0.12|	0.0|	0.0	|0.0|
 
 Apparently, [lazy, fox] is more similar to [lazy, dog] than [rabid, hare], so the vector distance of [lazy, fox] and [lazy, dog] is smaller than that to [lazy, fox] and [rabid, hare].
+
+![](images/l2q4.jpg)
+
+**The Whole Pipeline**
+
+The next step is feature extraction and vectorization, which creates a numeric representation of the documents. Common approaches include TF-IDF vectorization, Word2vec, and Global Vectors (GloVe).
+
+
+![](images/l2q5.jpg)
+
