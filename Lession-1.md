@@ -84,5 +84,5 @@ The formula for this is:
 (𝑥 −𝑥𝑚𝑖𝑛)/(𝑥𝑚𝑎𝑥 −𝑥𝑚𝑖𝑛)
 
 ![](images/2.jpg)<br />
-![](images/2.jpg)<br />
-![](images/2.jpg)<br />
+![](images/3.jpg)<br />
+![](images/4.jpg)<br />
