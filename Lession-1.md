@@ -82,3 +82,5 @@ Normalization rescales the data into the range [0, 1].
 The formula for this is:
 
 (𝑥 −𝑥𝑚𝑖𝑛)/(𝑥𝑚𝑎𝑥 −𝑥𝑚𝑖𝑛)
+
+![](images/2.jpg)
